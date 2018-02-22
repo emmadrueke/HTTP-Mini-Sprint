@@ -5,6 +5,7 @@ import axios from 'axios';
 
 class FriendsList extends Component {
     componentDidMount() {
+        console.log(this.props.getFriends());
         this.props.getFriends();
     }
 

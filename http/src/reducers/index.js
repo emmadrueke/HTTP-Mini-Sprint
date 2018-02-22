@@ -15,3 +15,8 @@ const rootReducer = combineReducers({
 });
 
 export default rootReducer;
+
+
+    // on a pure function
+    // do not rely on outside information
+    // never, ever, change outside state
